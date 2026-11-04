@@ -1,0 +1,78 @@
+{
+  "pairs": [
+    {
+      "pair": "V/MA",
+      "pvalue_train": 0.0012455456693146669,
+      "hedge_ratio_train": 0.8400144456613874,
+      "half_life_days_train": 16.57141156724211,
+      "annualized_return": 0.0003131591181675386,
+      "annualized_vol": 0.034861071517553376,
+      "sharpe": 0.026384815696139985,
+      "sortino": 0.028486608645441017,
+      "max_drawdown": -0.05587671154975349,
+      "hit_rate": 0.46557377049180326,
+      "n_days": 632
+    },
+    {
+      "pair": "KO/PEP",
+      "pvalue_train": 0.029672621932361684,
+      "hedge_ratio_train": 0.7500182829055965,
+      "half_life_days_train": 38.51962216594048,
+      "annualized_return": -0.08377626547918016,
+      "annualized_vol": 0.06912522614398986,
+      "sharpe": -1.2309820464248478,
+      "sortino": -1.4154177623849067,
+      "max_drawdown": -0.2113819163400107,
+      "hit_rate": 0.4517766497461929,
+      "n_days": 632
+    },
+    {
+      "pair": "HD/LOW",
+      "pvalue_train": 0.04642231273624195,
+      "hedge_ratio_train": 0.6767579859980348,
+      "half_life_days_train": 38.25016661956147,
+      "annualized_return": -0.0014530509852320739,
+      "annualized_vol": 0.049298251409350784,
+      "sharpe": -0.00482001541842542,
+      "sortino": -0.00398083421089259,
+      "max_drawdown": -0.05340230919810851,
+      "hit_rate": 0.48091603053435117,
+      "n_days": 632
+    }
+  ],
+  "train": [
+    "2019-01-01",
+    "2023-12-31"
+  ],
+  "test": [
+    "2024-01-01",
+    "2026-07-10"
+  ],
+  "params": {
+    "z_window": 60,
+    "entry": 2.0,
+    "exit": 0.5,
+    "stop": 4.0,
+    "tc": 0.0005
+  },
+  "portfolio": {
+    "annualized_return": -0.02817678490140818,
+    "annualized_vol": 0.029785689621575424,
+    "sharpe": -0.94463402611188,
+    "sortino": -1.1793233378720718,
+    "max_drawdown": -0.07449334092737381,
+    "hit_rate": 0.4742857142857143,
+    "n_days": 632
+  },
+  "spy_benchmark": {
+    "annualized_return": 0.21966521700787767,
+    "annualized_vol": 0.15885049104006796,
+    "sharpe": 1.3293907201726018,
+    "sortino": 1.732485145895017,
+    "max_drawdown": -0.18755234489427286,
+    "hit_rate": 0.572107765451664,
+    "n_days": 632
+  },
+  "n_trades": 75,
+  "correlation_to_spy": 0.11195520298503153
+}
